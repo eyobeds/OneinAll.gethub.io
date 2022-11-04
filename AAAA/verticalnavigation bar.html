@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="eyobed">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script>
+      function my(){
+        document.getElementById("ov").innerHTML="HELLO TO GOSPEL GENERAL HOSPITAL";
+      }
+    </script>
+    <style>
+      body{
+        margin: 0;
+      }
+    
+     
+      
+      ul{
+        list-style-type: none;
+        margin: 0;
+        paddng: 0;
+        width: 15%;
+        background-color: ghostwhite;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+
+      }
+
+       li a{
+        display: block ;
+        
+        background-color: whitesmoke;
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+       
+
+       }
+       li a.active{
+       background-color: green;
+       color: white;
+       }
+       li a:hover:not(.active){
+          background-color: skyblue;
+          color: black;
+       }
+
+      
+    </style>
+  </head> 
+      
+     <body style="background-color:slateblue; background-image:url('34.jpg'); background-repeat:no-repeat;background-size:cover;background-attachment:fixed;" >
+   
+        <ul>
+        <li ><a  class="active" href="#home">home</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#contact">contact</a></li>
+
+        <li><a href="#about">about</a></li>
+      </ul>
+      <div style="margin-left:17%;padding:1px 16px;height:1000px;">
+
+           <p><cite>alemawek</cite>  by dr.dawit wendemageye</p>
+           <bdo dir="7rc"></bdo>
+           <a href="web000.html" target="_blank">click here</a><br>
+           <a href="mailto:sebrexam2009@gmail.com" target="_blank">send to</a><br>
+           <a href="web00.html"><img src="34.jpg" style="width:80px;hegith:80px;"></a><br>
+           <button type="button" onclick="my()"></button><br>
+            <p id="ov">this is that</p>
+         
+       
+    
+     	  
+        
+    </div>
+     </body>
+
+</html>

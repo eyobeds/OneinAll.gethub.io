@@ -1,0 +1,41 @@
+*{
+    text-align: right;
+  
+}
+
+
+body{
+	background-image: url('34.jpg ');
+	background-size: cover;
+}
+
+ 
+ .wt1{
+   
+    text-height: 50px;
+   
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Times New Roman",Georgia;
+ }
+ span{
+    font-size: 2em;
+ }
+ img {
+    float: left;
+
+ }
+
+ li  {
+    list-style: none;
+    display: inline-block;
+ }
+ footer {
+    clear: both;
+    text-align: center;
+
+ }
+
+
+
